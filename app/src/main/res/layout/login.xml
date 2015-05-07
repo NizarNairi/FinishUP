@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:fillViewport="true"
+    >
+
+
+  		<!-- Login Form -->
+      <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+android:id="@+id/Login"
+android:layout_alignParentLeft="true"
+android:layout_alignParentStart="true"
+          android:background="@drawable/background">
+        <!--  Email Label -->
+
+<!--  Password Label -->
+<!-- Login button -->
+
+<Button android:id="@+id/btnLogin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+android:text="Sign IN"
+    android:textColor="@android:color/white"
+    android:background="#ff00bcb0"
+    android:layout_marginTop="101dp"
+    android:layout_below="@+id/phone"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" />
+   <!-- android:layout_alignBaseline="@+id/link_to_register"
+    android:layout_alignBottom="@+id/link_to_register"-->
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" />
+        <!-- Link to Registration Screen -->
+       <!-- <TextView android:id="@+id/link_to_register"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="380dp"
+                android:layout_marginBottom="40dip"
+                android:text="New to TaskManagement? Register here"
+                android:gravity="center"
+                android:textSize="20dip"
+                android:textColor="#0b84aa"
+            android:layout_alignParentLeft="true"
+android:layout_marginLeft="20dp"
+android:layout_alignParentTop="true" />-->
+
+<EditText
+android:layout_width="45dp"
+android:layout_height="wrap_content"
+android:inputType="phone"
+android:ems="10"
+android:id="@+id/idPhone"
+android:hint="+id"
+    android:layout_alignTop="@+id/editText"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+          <EditText
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:inputType="phone"
+              android:id="@+id/editText"
+              android:layout_marginTop="123dp"
+              android:layout_alignParentTop="true"
+              android:layout_alignLeft="@+id/phone"
+              android:layout_alignStart="@+id/phone"
+              android:layout_alignRight="@+id/phone"
+              android:layout_alignEnd="@+id/phone"
+              android:hint="Phone Number" />
+
+          <EditText
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+              android:inputType="text"
+          android:ems="10"
+          android:id="@+id/phone"
+          android:height="2dp"
+              android:layout_below="@+id/editText"
+              android:layout_centerHorizontal="true"
+              android:layout_marginTop="36dp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceSmall"
+              android:text="Name"
+              android:id="@+id/textView"
+              android:layout_alignTop="@+id/phone"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentStart="true" />
+
+      </RelativeLayout>
+      <!-- Login Form Ends -->
+
+</ScrollView>

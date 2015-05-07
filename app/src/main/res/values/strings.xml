@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FINISH UP</string>
+    <string name="hello_world">Welcome FINISH UP</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splah">Splah</string>
+    <string name="idCountry">+id</string>
+    <string name="title_activity_login">Login</string>
+    <string name="register">Register</string>
+
+</resources>
